@@ -28,3 +28,23 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1; /*
+    Absolutely! When you use flex: 1; on a flex item, it means that the item can grow and take up available space. Here's a simple breakdown:
+    Flex Container:
+    Imagine a box that holds other smaller boxes (flex items).
+    This big box is the flex container.
+    Flex Item with flex: 1;:
+    Each small box inside the big box is a flex item.
+    If you give a flex item the style flex: 1;, it's like telling it, "You can grow if there's extra space available."*/
+    margin-right: 16px;
+    font-size: 18px;
+}
