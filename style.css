@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' , 'sans-serif';
+    box-sizing: border-box; /*box-sizing: border-box;:
+    When you say the box should be 200 pixels wide, it means the 200 pixels include everything: the content, the padding, and the border.
+    If you add more padding or a border, the total size of the box will remain 200 pixels; the browser will adjust the size of the content to accommodate the padding and border.*/
+}
