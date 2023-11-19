@@ -37,7 +37,8 @@ body{
     padding: 10px 25px;
     height: 60px;
     border-radius: 30px;
-    flex: 1; /*
+    flex: 1;
+    margin-left: 20px; /*
     Absolutely! When you use flex: 1; on a flex item, it means that the item can grow and take up available space. Here's a simple breakdown:
     Flex Container:
     Imagine a box that holds other smaller boxes (flex items).
@@ -50,6 +51,7 @@ body{
 }
 
 .search button{
+    margin-left: 20px;
     border: 0;
     outline: 0;
     background: #ebfffc;
