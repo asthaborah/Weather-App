@@ -6,3 +6,25 @@
     When you say the box should be 200 pixels wide, it means the 200 pixels include everything: the content, the padding, and the border.
     If you add more padding or a border, the total size of the box will remain 200 pixels; the browser will adjust the size of the content to accommodate the padding and border.*/
 }
+
+body{
+    background: #222;
+}
+
+.card{
+    background: linear-gradient(135deg , #00feba, #5b548a);
+    width: 90%;
+    max-width: 470px;
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+.search{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
